@@ -1,34 +1,213 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Webpage</title>
+    <title>Rosanna Raggi Eventos | Bodas y Celebraciones</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Webpage</h1>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </nav>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Rosanna Raggi</div>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#testimonios">Testimonios</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#contacto" class="btn-nav">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Creamos Bodas Inolvidables</h1>
+            <p>Transformamos tus suenos en celebraciones extraordinarias</p>
+            <a href="#contacto" class="btn-primary">Agenda tu Consulta</a>
+        </div>
     </header>
 
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>This is your personal webpage. Edit this text to tell visitors about yourself!</p>
-        </section>
+    <!-- Services Section -->
+    <section id="servicios" class="services">
+        <h2>Nuestros Servicios</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">💒</div>
+                <h3>Bodas Completas</h3>
+                <p>Planificacion integral desde la propuesta hasta el ultimo baile. Nos encargamos de cada detalle.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🎨</div>
+                <h3>Diseno y Decoracion</h3>
+                <p>Creamos ambientes unicos que reflejan tu personalidad y estilo con decoraciones impactantes.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">📋</div>
+                <h3>Coordinacion del Dia</h3>
+                <p>Gestion profesional el dia de tu boda para que disfrutes cada momento sin preocupaciones.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🌸</div>
+                <h3>Arreglos Florales</h3>
+                <p>Disenos florales espectaculares que dan vida y color a tu celebracion.</p>
+            </div>
+        </div>
+    </section>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Get in touch: your.email@example.com</p>
-        </section>
-    </main>
+    <!-- Gallery Section -->
+    <section id="galeria" class="gallery">
+        <h2>Galeria de Eventos</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item large">
+                <div class="gallery-placeholder">Boda Elena & Carlos</div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-placeholder">Ceremonia Jardin</div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-placeholder">Recepcion Elegante</div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-placeholder">Detalles Florales</div>
+            </div>
+            <div class="gallery-item large">
+                <div class="gallery-placeholder">Boda Maria & Jose</div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-placeholder">Mesa Principal</div>
+            </div>
+        </div>
+    </section>
 
-    <footer>
-        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    <!-- Testimonials Section -->
+    <section id="testimonios" class="testimonials">
+        <h2>Lo Que Dicen Nuestras Parejas</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <p class="quote">"Rosanna hizo de nuestra boda un cuento de hadas. Cada detalle fue perfecto, superando todas nuestras expectativas."</p>
+                <div class="client-info">
+                    <div class="client-avatar">E&C</div>
+                    <div>
+                        <strong>Elena & Carlos</strong>
+                        <span>Boda en Hacienda, 2024</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p class="quote">"Profesionalismo y creatividad en cada paso. Nos sentimos tranquilos sabiendo que todo estaba en sus manos."</p>
+                <div class="client-info">
+                    <div class="client-avatar">M&J</div>
+                    <div>
+                        <strong>Maria & Jose</strong>
+                        <span>Boda en Playa, 2024</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p class="quote">"La mejor decision fue contratar a Rosanna. Nuestra boda fue magica y pudimos disfrutarla al maximo."</p>
+                <div class="client-info">
+                    <div class="client-avatar">A&L</div>
+                    <div>
+                        <strong>Ana & Luis</strong>
+                        <span>Boda Intima, 2023</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="nosotros" class="about">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>Sobre Rosanna Raggi</h2>
+                <p class="tagline">Mas de 10 anos creando momentos magicos</p>
+                <p>Soy Rosanna Raggi, wedding planner apasionada por transformar suenos en realidad. Cada boda es una historia unica y mi mision es contarla a traves de detalles extraordinarios.</p>
+                <p>Mi equipo y yo nos dedicamos a crear experiencias personalizadas, cuidando cada elemento para que tu dia especial sea exactamente como lo imaginaste, y mas.</p>
+                <div class="stats">
+                    <div class="stat">
+                        <span class="stat-number">150+</span>
+                        <span class="stat-label">Bodas Realizadas</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">10</span>
+                        <span class="stat-label">Anos de Experiencia</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Parejas Felices</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <div class="image-placeholder">Foto de Rosanna</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <h2>Comencemos a Planear tu Boda</h2>
+        <p class="contact-intro">Cuentanos sobre tu vision y agenda una consulta gratuita</p>
+        <div class="contact-container">
+            <form class="contact-form">
+                <div class="form-row">
+                    <input type="text" placeholder="Tu Nombre" required>
+                    <input type="text" placeholder="Nombre de tu Pareja" required>
+                </div>
+                <div class="form-row">
+                    <input type="email" placeholder="Email" required>
+                    <input type="tel" placeholder="Telefono">
+                </div>
+                <div class="form-row">
+                    <input type="text" placeholder="Fecha Tentativa de Boda">
+                    <input type="text" placeholder="Lugar Deseado">
+                </div>
+                <textarea placeholder="Cuentanos sobre la boda de tus suenos..." rows="4"></textarea>
+                <button type="submit" class="btn-primary">Enviar Mensaje</button>
+            </form>
+            <div class="contact-info">
+                <div class="info-item">
+                    <span class="info-icon">📍</span>
+                    <div>
+                        <strong>Ubicacion</strong>
+                        <p>Ciudad de Mexico, Mexico</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="info-icon">📧</span>
+                    <div>
+                        <strong>Email</strong>
+                        <p>hola@rosannaraggi.com</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="info-icon">📱</span>
+                    <div>
+                        <strong>Telefono</strong>
+                        <p>+52 55 1234 5678</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">Pinterest</a>
+                    <a href="#" class="social-link">Facebook</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">Rosanna Raggi Eventos</div>
+            <p>Creando bodas extraordinarias, un sueno a la vez.</p>
+            <p class="copyright">&copy; 2025 Rosanna Raggi Eventos. Todos los derechos reservados.</p>
+        </div>
     </footer>
 </body>
 </html>
